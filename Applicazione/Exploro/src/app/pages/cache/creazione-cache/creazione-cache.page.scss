@@ -1,0 +1,20 @@
+.mapPicker {
+  height: 100%;
+  width: 91%;
+  background-color: transparent;
+  opacity: 0;
+  transition: opacity 150ms ease-in;
+}
+
+.mapPicker.visible {
+  opacity: 1;
+}
+
+.conferma {
+  --ion-color-primary: #eaa932;
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
